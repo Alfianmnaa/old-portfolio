@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #fff">
+      <div class="container">
+        <a class="navbar-brand" href="#">ALF<span>IAN</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav" id="navbar">
+            <a class="nav-link" id="nav-link" aria-current="page" href="#hero">Home</a>
+            <a class="nav-link" id="nav-link" href="#about">About</a>
+            <a class="nav-link" id="nav-link" href="#skills">Skills</a>
+            <a class="nav-link" id="nav-link" href="#portfolio">Portfolio</a>
+            <a class="nav-link" id="nav-link" href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <h2 id="text"><span>Welcome to My</span><br />Portfolio</h2>
+      <img src="image/bird1.png" alt="herophoto" id="bird1" />
+      <img src="image/bird2.png" alt="herophoto" id="bird2" />
+      <img src="image/forest.png" alt="herophoto" id="forest" />
+      <a href="#" id="btn-cv">Download CV</a>
+      <img src="image/rocks.png" alt="herophoto" id="rocks" />
+      <img src="image/water.png" alt="herophoto" id="water" />
+    </section>
+
+    <!-- ABOUT ME -->
+    <div class="sec" id="about">
+      <div class="container">
+        <div class="row text-center">
+          <h2 style="font-size: 40px; padding-top: 30px; color: #f1f1f1">About Me</h2>
+          <hr class="hr-about" />
+        </div>
+        <div class="row aboutrow">
+          <div class="col-md-5 col-sm-12 mypiccontainer">
+            <div class="text-center">
+              <img src="image/mypic.png" alt="mypic" class="mypic" />
+            </div>
+          </div>
+          <div class="col-md-5 col-sm-10 abouttext">
+            <h3 class="h3-about">Hello I'm <span class="typing">Fullstack Developer</span></h3>
+            <p>My name is Alfian Maulana. Currently i'm majoring in computer science. I have more than 1 year experience in fullstack website developer and website design. I am very glad to make an amazing creation with you..</p>
+            <a href="https://wa.me/6281326022762" id="btn-about">Let's talk</a>
+          </div>
+          <div class="col-md-2 col-sm-2 icon-about">
+            <a href="https://www.instagram.com/alfianmnaa/">
+              <i class="fa-brands fa-instagram abouticon1"></i>
+            </a>
+            <br />
+            <a href="#">
+              <i class="fa-brands fa-facebook-f abouticon2"></i>
+            </a>
+            <br />
+            <a href="#" data-bs-toggle="modal" data-bs-target="#sertificate">
+              <i class="fa-sharp fa-solid fa-medal abouticon3"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MY SKILLS -->
+    <div class="skills-container" id="skills">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-12">
+            <h2 style="font-size: 40px; padding-top: 30px; color: #f1f1f1">My skills</h2>
+            <hr class="hr-about" />
+          </div>
+        </div>
+        <div class="skillscontainer">
+          <div class="cardskill">
+            <p>HTML</p>
+            <img src="image/html.png" alt="skillspic" class="skillspic" />
+            <h6>Advance</h6>
+          </div>
+          <div class="cardskill">
+            <p>CSS</p>
+            <img src="image/css.png" alt="skillspic" class="skillspic" />
+            <h6>Advance</h6>
+          </div>
+          <div class="cardskill">
+            <p>JAVASCRIPT</p>
+            <img src="image/js.png" alt="skillspic" class="skillspic" />
+            <h6>Intermediate</h6>
+          </div>
+          <div class="cardskill">
+            <p>BOOTSTRAP</p>
+            <img src="image/bootstrap.png" alt="skillspic" class="skillspic" />
+            <h6>Intermediate</h6>
+          </div>
+          <div class="cardskill">
+            <p>NODE JS</p>
+            <img src="image/nodejs.png" alt="skillspic" class="skillspic" />
+            <h6>Intermediate</h6>
+          </div>
+          <div class="cardskill">
+            <p>REACT JS</p>
+            <img src="image/reactjs.png" alt="skillspic" class="skillspic" />
+            <h6>Intermediate</h6>
+          </div>
+          <div class="cardskill">
+            <p>MONGO DB</p>
+            <img src="image/mongodb.png" alt="skillspic" class="skillspic" />
+            <h6>Intermediate</h6>
+          </div>
+          <div class="cardskill">
+            <p>FIGMA</p>
+            <img src="image/figma.png" alt="skillspic" class="skillspic" />
+            <h6>Intermediate</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio -->
+    <div class="portfolio-container" id="portfolio">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-12">
+            <h2 style="font-size: 40px; padding-top: 30px; color: #f1f1f1">Portfolio</h2>
+            <hr class="hr-about" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 portfolios">
+            <div class="card">
+              <img src="image/pro1.png" class="card-img-top" alt="" />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <button type="button" class="btn btn-outline-info modalbtn" data-bs-toggle="modal" data-bs-target="#exampleModal">Details</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 portfolios">
+            <div class="card">
+              <img src="image/movies.png" class="card-img-top" alt="" />
+              <div class="card-body">
+                <p class="card-text">Create a website that provides information about updated films with a realtime API with a beautiful and elegant design.</p>
+                <button type="button" class="btn btn-outline-info modalbtn" data-bs-toggle="modal" data-bs-target="#exampleModal2">Details</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 portfolios">
+            <div class="card">
+              <img src="image/sosmed.png" class="card-img-top" alt="" />
+              <div class="card-body">
+                <p class="card-text">Social media website with login, chat, and image upload features as well as realtime updates.</p>
+                <button type="button" class="btn btn-outline-info modalbtn" data-bs-toggle="modal" data-bs-target="#exampleModal3">Details</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 portfolios">
+            <div class="card">
+              <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="5000">
+                    <img src="image/ec1.png" class="d-block w-100" alt="porfoliopic" />
+                  </div>
+                  <div class="carousel-item" data-bs-interval="3000">
+                    <img src="image/ec2.png" class="d-block w-100" alt="portfoliopic" />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="image/ec3.png" class="d-block w-100" alt="portfoliopic" />
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="card-body">
+                <p class="card-text">E-commerce website that has shopping features, shopping charts, blogs and with beautiful designs.</p>
+                <button type="button" class="btn btn-outline-info modalbtn" data-bs-toggle="modal" data-bs-target="#exampleModal4">Details</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 portfolios">
+            <div class="card">
+              <div id="game" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="5000">
+                    <img src="image/game1.png" class="d-block w-100" alt="porfoliopic" />
+                  </div>
+                  <div class="carousel-item" data-bs-interval="3000">
+                    <img src="image/game2.png" class="d-block w-100" alt="portfoliopic" />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="image/game3.png" class="d-block w-100" alt="portfoliopic" />
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target=" #game" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target=" #game" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="card-body">
+                <p class="card-text">Game website with html canvas with an attractive animation design and its application to physics and mathematics.</p>
+                <button type="button" class="btn btn-outline-info modalbtn" data-bs-toggle="modal" data-bs-target="#exampleModal5">Details</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 portfolios">
+            <div class="card">
+              <div id="blog" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="5000">
+                    <img src="image/blog1.png" class="d-block w-100" alt="porfoliopic" />
+                  </div>
+                  <div class="carousel-item" data-bs-interval="3000">
+                    <img src="image/blog2.png" class="d-block w-100" alt="portfoliopic" />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="image/blog3.png" class="d-block w-100" alt="portfoliopic" />
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target=" #blog" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target=" #blog" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="card-body">
+                <p class="card-text">Blog website with login, write, settings and data fetch features in real time and is implemented in a beautiful design.</p>
+                <button type="button" class="btn btn-outline-info modalbtn" data-bs-toggle="modal" data-bs-target="#exampleModal6">Details</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="contact-container" id="contact">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-12">
+            <h2 style="font-size: 40px; padding-top: 30px; color: #f1f1f1">Contact</h2>
+            <hr class="hr-about" />
+          </div>
+        </div>
+        <div class="row contactform">
+          <div class="col-md-8 offset-md-2">
+            <div class="alert alert-success alert-dismissible fade show d-none myalert" role="alert">
+              <strong>Thank You!</strong> I have received your message.
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            <form class="formcontact" name="portfolio-contact">
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Name</label>
+                <input type="text" class="form-control editform" id="exampleInputName" aria-describedby="textHelp" name="nama" placeholder="Type your name..." />
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email</label>
+                <input type="email" class="form-control editform" id="exampleInputEmail1" aria-describedby="emailHelp" name="email" placeholder="Type your email..." />
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                <textarea class="form-control editform" id="exampleFormControlTextarea1" rows="3" name="pesan" placeholder="Leave a message..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-info formbtn btnkirim">Submit</button>
+              <button class="btn btn-primary formbtn btnloading d-none" type="button" disabled>
+                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                Loading...
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer-container">
+      <div class="container">
+        <div class="row footer-row">
+          <div class="col-md-1 col-sm-1 offset-md-6 offset-sm-6">
+            <div class="cube">
+              <div class="top"></div>
+              <div>
+                <span style="--i: 0">
+                  <p>Made</p>
+                </span>
+                <span style="--i: 1">
+                  <p>with</p>
+                </span>
+                <span style="--i: 2">
+                  <i class="fa-solid fa-heart"></i>
+                </span>
+                <span style="--i: 3"> <p>by me.</p></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row freepik">
+          <div class="col-md-12 col-xs-12 offset-sm-9 offset-6">
+            <a href="http://www.freepik.com" class="source">Source Parallax Image by Freepik.</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODALS -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content modalcontainer">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Agency Site</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-12" style="color: #fff">Tools:</div>
+            </div>
+            <div class="tools-flex">
+              <div class="tools-container">
+                <p>HTML</p>
+                <img src="image/html.png" class="toolspic" alt="toolspic" />
+              </div>
+              <div class="tools-container">
+                <p>CSS</p>
+                <img src="image/css.png" class="toolspic" alt="toolspic" />
+              </div>
+              <div class="tools-container">
+                <p>JS</p>
+                <img src="image/js.png" class="toolspic" alt="toolspic" />
+              </div>
+              <div class="tools-container">
+                <p>Materailize</p>
+                <img src="image/materialize.png" class="toolspic" alt="toolspic" />
+              </div>
+            </div>
+            <div class="portpic">
+              <img src="image/pro1.png" alt="portpic" class="portpicsize" />
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="sertificate" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content modalcontainer">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">My sertificates</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="portpic">
+              <img src="image/sertif1.png" alt="portpic" class="portpicsize" />
+            </div>
+            <div class="portpic">
+              <img src="image/sertif2.png" alt="portpic" class="portpicsize" />
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content modalcontainer">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Movies Website</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-12" style="color: #fff; font-size: 14px">Tools:</div>
+            </div>
+            <div class="tools-flex">
+              <div class="tools-container">
+                <p>HTML</p>
+                <img src="image/html.png" class="toolspic" alt="toolspic" />
+              </div>
+              <div class="tools-container">
+                <p>CSS</p>
+                <img src="image/css.png" class="toolspic" alt="toolspic" />
+              </div>
+              <div class="tools-container">
+                <p>JS</p>
+                <img src="image/js.png" class="toolspic" alt="toolspic" />
+              </div>
+              <div class="tools-container">
+                <p>Bootstrap</p>
+                <img src="image/bootstrap.png" class="toolspic" alt="toolspic" />
+              </div>
+            </div>
+            <div class="portpic">
+              <img src="image/movies.png" alt="portpic" class="portpicsize" />
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content modalcontainer">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Social media website</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-12" style="color: #fff; font-size: 14px">Tools:</div>
+            </div>
+            <div class="tools-flex">
+              <div class="tools-container">
+                <p>HTML</p>
+                <img src="image/html.png" class="toolspic" alt="toolspic" />
+              </div>
+              <div class="tools-container">
+                <p>CSS</p>
+                <img src="image/css.png" class="toolspic" alt="toolspic" />
+              </div>
+              <div class="tools-container">
+                <p>JS</p>
+                <img src="image/js.png" class="toolspic" alt="toolspic" />
+              </div>
+              <div class="tools-container">
+                <p>Bootstrap</p>
+                <img src="image/bootstrap.png" class="toolspic" alt="toolspic" />
+              </div>
+              <div class="tools-container">
+                <p>React JS</p>
+                <img src="image/reactjs.png" class="toolspic" alt="toolspic" />
+              </div>
+              <div class="tools-container">
+                <p>Node JS</p>
+                <img src="image/nodejs.png" class="toolspic" alt="toolspic" />
+              </div>
+              <div class="tools-container">
+                <p>Mongo DB</p>
+                <img src="image/mongodb.png" class="toolspic" alt="toolspic" />
+              </div>
+              <div class="tools-container">
+                <p>Figma</p>
+                <img src="image/figma.png" class="toolspic" alt="toolspic" />
+              </div>
+            </div>
+            <div class="portpic">
+              <img src="image/sosmed.png" alt="portpic" class="portpicsize" />
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content modalcontainer">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">E-commerce website</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-12" style="color: #fff; font-size: 14px">Tools:</div>
+            </div>
+            <div class="tools-flex">
+              <div class="tools-container">
+                <p>HTML</p>
+                <img src="image/html.png" class="toolspic" alt="toolspic" />
+              </div>
+              <div class="tools-container">
+                <p>CSS</p>
+                <img src="image/css.png" class="toolspic" alt="toolspic" />
+              </div>
+              <div class="tools-container">
+                <p>JS</p>
+                <img src="image/js.png" class="toolspic" alt="toolspic" />
+              </div>
+              <div class="tools-container">
+                <p>React JS</p>
+                <img src="image/reactjs.png" class="toolspic" alt="toolspic" />
+              </div>
+              <div class="tools-container">
+                <p>Node JS</p>
+                <img src="image/nodejs.png" class="toolspic" alt="toolspic" />
+              </div>
+              <div class="tools-container">
+                <p>Mongo DB</p>
+                <img src="image/mongodb.png" class="toolspic" alt="toolspic" />
+              </div>
+              <div class="tools-container">
+                <p>Figma JS</p>
+                <img src="image/figma.png" class="toolspic" alt="toolspic" />
+              </div>
+            </div>
+            <div class="portpic">
+              <div id="ecdetails" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="5000">
+                    <img src="image/ec1.png" class="d-block w-100 portpicsize" alt="porfoliopic" />
+                  </div>
+                  <div class="carousel-item" data-bs-interval="3000">
+                    <img src="image/ec2.png" class="d-block w-100 portpicsize" alt="portfoliopic" />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="image/ec3.png" class="d-block w-100 portpicsize" alt="portfoliopic" />
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target=" #ecdetails" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target=" #ecdetails" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content modalcontainer">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Game Website</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-12" style="color: #fff; font-size: 14px">Tools:</div>
+            </div>
+            <div class="tools-flex">
+              <div class="tools-container">
+                <p>HTML</p>
+                <img src="image/html.png" class="toolspic" alt="toolspic" />
+              </div>
+              <div class="tools-container">
+                <p>CSS</p>
+                <img src="image/css.png" class="toolspic" alt="toolspic" />
+              </div>
+              <div class="tools-container">
+                <p>JS</p>
+                <img src="image/js.png" class="toolspic" alt="toolspic" />
+              </div>
+            </div>
+            <div class="portpic">
+              <div id="gamedetails" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="5000">
+                    <img src="image/game1.png" class="d-block w-100 portpicsize" alt="porfoliopic" />
+                  </div>
+                  <div class="carousel-item" data-bs-interval="3000">
+                    <img src="image/game2.png" class="d-block w-100 portpicsize" alt="portfoliopic" />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="image/game3.png" class="d-block w-100 portpicsize" alt="portfoliopic" />
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target=" #gamedetails" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target=" #gamedetails" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content modalcontainer">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Blog website</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-12" style="color: #fff; font-size: 14px">Tools:</div>
+            </div>
+            <div class="tools-flex">
+              <div class="tools-container">
+                <p>HTML</p>
+                <img src="image/html.png" class="toolspic" alt="toolspic" />
+              </div>
+              <div class="tools-container">
+                <p>CSS</p>
+                <img src="image/css.png" class="toolspic" alt="toolspic" />
+              </div>
+              <div class="tools-container">
+                <p>JS</p>
+                <img src="image/js.png" class="toolspic" alt="toolspic" />
+              </div>
+              <div class="tools-container">
+                <p>Bootstrap</p>
+                <img src="image/bootstrap.png" class="toolspic" alt="toolspic" />
+              </div>
+              <div class="tools-container">
+                <p>React JS</p>
+                <img src="image/reactjs.png" class="toolspic" alt="toolspic" />
+              </div>
+              <div class="tools-container">
+                <p>Node JS</p>
+                <img src="image/nodejs.png" class="toolspic" alt="toolspic" />
+              </div>
+              <div class="tools-container">
+                <p>Mongo DB</p>
+                <img src="image/mongodb.png" class="toolspic" alt="toolspic" />
+              </div>
+              <div class="tools-container">
+                <p>Figma JS</p>
+                <img src="image/figma.png" class="toolspic" alt="toolspic" />
+              </div>
+            </div>
+            <div class="portpic">
+              <div id="blogdetails" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="5000">
+                    <img src="image/blog1.png" class="d-block w-100 portpicsize" alt="porfoliopic" />
+                  </div>
+                  <div class="carousel-item" data-bs-interval="3000">
+                    <img src="image/blog2.png" class="d-block w-100 portpicsize" alt="portfoliopic" />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="image/blog3.png" class="d-block w-100 portpicsize" alt="portfoliopic" />
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target=" #blogdetails" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target=" #blogdetails" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
